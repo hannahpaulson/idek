@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3022E85E3E397A043C9192FB /* Pods_idekTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C00921A788B84AD842CE1C1E /* Pods_idekTests.framework */; };
+		592831D621C6D61F00395EF6 /* RedditPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592831D521C6D61F00395EF6 /* RedditPost.swift */; };
+		592831D821C6DC5800395EF6 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 592831D721C6DC5800395EF6 /* test.json */; };
+		592831DB21C6EE8F00395EF6 /* RedditService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592831DA21C6EE8F00395EF6 /* RedditService.swift */; };
 		594C1C6C21C6B82500F72E24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594C1C6B21C6B82500F72E24 /* AppDelegate.swift */; };
 		594C1C6E21C6B82500F72E24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594C1C6D21C6B82500F72E24 /* ViewController.swift */; };
 		594C1C7121C6B82500F72E24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594C1C6F21C6B82500F72E24 /* Main.storyboard */; };
@@ -14,6 +18,7 @@
 		594C1C7621C6B82700F72E24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594C1C7421C6B82700F72E24 /* LaunchScreen.storyboard */; };
 		594C1C8121C6B82700F72E24 /* idekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594C1C8021C6B82700F72E24 /* idekTests.swift */; };
 		594C1C8C21C6B82700F72E24 /* idekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594C1C8B21C6B82700F72E24 /* idekUITests.swift */; };
+		F4CEADE917E5E0F12BF3E0E9 /* Pods_idekUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D97F95B95EAF6FB714D865 /* Pods_idekUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16A1BF2CA49FE4782EE7D9AE /* Pods_idek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_idek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		174D1852CFFB6D21415E97DA /* Pods-idekUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idekUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-idekUITests/Pods-idekUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		32A86409E3106019B0D8B7C7 /* Pods-idekTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idekTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-idekTests/Pods-idekTests.debug.xcconfig"; sourceTree = "<group>"; };
+		37D97F95B95EAF6FB714D865 /* Pods_idekUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_idekUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		592831D521C6D61F00395EF6 /* RedditPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditPost.swift; sourceTree = "<group>"; };
+		592831D721C6DC5800395EF6 /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		592831DA21C6EE8F00395EF6 /* RedditService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditService.swift; sourceTree = "<group>"; };
 		594C1C6821C6B82500F72E24 /* idek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = idek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		594C1C6B21C6B82500F72E24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		594C1C6D21C6B82500F72E24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,11 @@
 		594C1C8721C6B82700F72E24 /* idekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = idekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		594C1C8B21C6B82700F72E24 /* idekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idekUITests.swift; sourceTree = "<group>"; };
 		594C1C8D21C6B82700F72E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C77143CBD50231AEC8E959 /* Pods-idekUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idekUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-idekUITests/Pods-idekUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C00921A788B84AD842CE1C1E /* Pods_idekTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_idekTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09FBF94864EFE366ABF2356 /* Pods-idek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idek.release.xcconfig"; path = "Pods/Target Support Files/Pods-idek/Pods-idek.release.xcconfig"; sourceTree = "<group>"; };
+		E1F13670973BC497CACC1B8E /* Pods-idek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idek.debug.xcconfig"; path = "Pods/Target Support Files/Pods-idek/Pods-idek.debug.xcconfig"; sourceTree = "<group>"; };
+		F1E8BBBF5C139BE14DB9B963 /* Pods-idekTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idekTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-idekTests/Pods-idekTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3022E85E3E397A043C9192FB /* Pods_idekTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4CEADE917E5E0F12BF3E0E9 /* Pods_idekUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		592831D921C6DC5D00395EF6 /* files */ = {
+			isa = PBXGroup;
+			children = (
+				592831D721C6DC5800395EF6 /* test.json */,
+			);
+			path = files;
+			sourceTree = "<group>";
+		};
 		594C1C5F21C6B82500F72E24 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,8 @@
 				594C1C7F21C6B82700F72E24 /* idekTests */,
 				594C1C8A21C6B82700F72E24 /* idekUITests */,
 				594C1C6921C6B82500F72E24 /* Products */,
+				C37FA1113AC4B53B103A3B66 /* Pods */,
+				9E616CFA6E3A4D19D8763B0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +132,8 @@
 				594C1C7221C6B82700F72E24 /* Assets.xcassets */,
 				594C1C7421C6B82700F72E24 /* LaunchScreen.storyboard */,
 				594C1C7721C6B82700F72E24 /* Info.plist */,
+				592831D521C6D61F00395EF6 /* RedditPost.swift */,
+				592831DA21C6EE8F00395EF6 /* RedditService.swift */,
 			);
 			path = idek;
 			sourceTree = "<group>";
@@ -110,6 +141,7 @@
 		594C1C7F21C6B82700F72E24 /* idekTests */ = {
 			isa = PBXGroup;
 			children = (
+				592831D921C6DC5D00395EF6 /* files */,
 				594C1C8021C6B82700F72E24 /* idekTests.swift */,
 				594C1C8221C6B82700F72E24 /* Info.plist */,
 			);
@@ -125,6 +157,29 @@
 			path = idekUITests;
 			sourceTree = "<group>";
 		};
+		9E616CFA6E3A4D19D8763B0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16A1BF2CA49FE4782EE7D9AE /* Pods_idek.framework */,
+				C00921A788B84AD842CE1C1E /* Pods_idekTests.framework */,
+				37D97F95B95EAF6FB714D865 /* Pods_idekUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C37FA1113AC4B53B103A3B66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1F13670973BC497CACC1B8E /* Pods-idek.debug.xcconfig */,
+				E09FBF94864EFE366ABF2356 /* Pods-idek.release.xcconfig */,
+				32A86409E3106019B0D8B7C7 /* Pods-idekTests.debug.xcconfig */,
+				F1E8BBBF5C139BE14DB9B963 /* Pods-idekTests.release.xcconfig */,
+				174D1852CFFB6D21415E97DA /* Pods-idekUITests.debug.xcconfig */,
+				83C77143CBD50231AEC8E959 /* Pods-idekUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +187,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 594C1C9021C6B82700F72E24 /* Build configuration list for PBXNativeTarget "idek" */;
 			buildPhases = (
+				97B369FB502B1D4295C768C4 /* [CP] Check Pods Manifest.lock */,
 				594C1C6421C6B82500F72E24 /* Sources */,
 				594C1C6521C6B82500F72E24 /* Frameworks */,
 				594C1C6621C6B82500F72E24 /* Resources */,
@@ -149,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 594C1C9321C6B82700F72E24 /* Build configuration list for PBXNativeTarget "idekTests" */;
 			buildPhases = (
+				B8B3F9C6C19F10D580CA4863 /* [CP] Check Pods Manifest.lock */,
 				594C1C7821C6B82700F72E24 /* Sources */,
 				594C1C7921C6B82700F72E24 /* Frameworks */,
 				594C1C7A21C6B82700F72E24 /* Resources */,
@@ -167,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 594C1C9621C6B82700F72E24 /* Build configuration list for PBXNativeTarget "idekUITests" */;
 			buildPhases = (
+				6859D612D52104CCFA816B8F /* [CP] Check Pods Manifest.lock */,
 				594C1C8321C6B82700F72E24 /* Sources */,
 				594C1C8421C6B82700F72E24 /* Frameworks */,
 				594C1C8521C6B82700F72E24 /* Resources */,
@@ -239,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				592831D821C6DC5800395EF6 /* test.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +310,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6859D612D52104CCFA816B8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-idekUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97B369FB502B1D4295C768C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-idek-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8B3F9C6C19F10D580CA4863 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-idekTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		594C1C6421C6B82500F72E24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				594C1C6E21C6B82500F72E24 /* ViewController.swift in Sources */,
+				592831D621C6D61F00395EF6 /* RedditPost.swift in Sources */,
 				594C1C6C21C6B82500F72E24 /* AppDelegate.swift in Sources */,
+				592831DB21C6EE8F00395EF6 /* RedditService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +548,7 @@
 		};
 		594C1C9121C6B82700F72E24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1F13670973BC497CACC1B8E /* Pods-idek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +566,7 @@
 		};
 		594C1C9221C6B82700F72E24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E09FBF94864EFE366ABF2356 /* Pods-idek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +584,7 @@
 		};
 		594C1C9421C6B82700F72E24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32A86409E3106019B0D8B7C7 /* Pods-idekTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +605,7 @@
 		};
 		594C1C9521C6B82700F72E24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E8BBBF5C139BE14DB9B963 /* Pods-idekTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +626,7 @@
 		};
 		594C1C9721C6B82700F72E24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 174D1852CFFB6D21415E97DA /* Pods-idekUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +646,7 @@
 		};
 		594C1C9821C6B82700F72E24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C77143CBD50231AEC8E959 /* Pods-idekUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

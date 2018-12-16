@@ -1,0 +1,6 @@
+framework module Pods_idek {
+  umbrella header "Pods-idek-umbrella.h"
+
+  export *
+  module * { export * }
+}

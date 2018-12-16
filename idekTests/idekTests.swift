@@ -7,10 +7,12 @@
 //
 
 import XCTest
+import Foundation
 @testable import idek
 
 class idekTests: XCTestCase {
-
+    
+    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -19,16 +21,40 @@ class idekTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testGetsAListOfRedditPosts() {
+        let expect = expectation(description: "Test")
+        loadRedditData(){ result,posts  in
+            XCTAssert(result)
+            XCTAssertEqual(posts.count, 1)
+            XCTAssertEqual(posts.first!.title, "Do you think we need a DNA test?")
+            expect.fulfill()
+        }
+        waitForExpectations(timeout: 60) { error in
+            XCTAssertNil(error)
         }
     }
-
+    
+    func loadRedditData(completion: @escaping (_ result: Bool, _ redditPosts: [RedditPost])->()) {
+        let url = URL(string: "https://www.reddit.com/r/aww/top.json?limit=1")!
+        let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
+            guard let jsonObject = try? JSONSerialization.jsonObject(with: data!, options: []),
+                let redditJson = jsonObject as? [String: AnyObject],
+                let firstData = redditJson["data"] as? [String: AnyObject],
+                let childrenData = firstData["children"] as? [[String: AnyObject]]  else {
+                    completion(false, [])
+                    return
+            }
+            
+            let posts = childrenData.compactMap({ children -> RedditPost? in
+                guard let postData = children["data"] as? [String: AnyObject] else {
+                    return nil
+                }
+                return RedditPost.from(postData)
+            })
+            
+            completion(true, posts)
+            
+        }
+        task.resume()
+    }
 }

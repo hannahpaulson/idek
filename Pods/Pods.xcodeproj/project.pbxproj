@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3218C3458BC29C9A24FF845F6B91168F /* Pods-idekTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B1FDAC36AB5ADBE4918BAEEF71C5057 /* Pods-idekTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5892E8D6FDF50D1CB447F908C9AED154 /* Pods-idek-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D92FEC65A8C309DD169A33E2F56D7C47 /* Pods-idek-dummy.m */; };
+		64217F0AAEBC33FD97A5F93AB4AA1072 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		7160BDF63FEA0B0218D1799D4CD26974 /* Pods-idek-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F101934A121A93486C59D923056E2C3 /* Pods-idek-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A275F55EE61DD987113E65AB61398931 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B5D2016E450F6CA8ED2D22E4CCDC2ADB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		BADE58AB66D7D4BD0311B65675EE1A18 /* Pods-idekUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2413BABA5DA455693257075653F6F2 /* Pods-idekUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2A519224ED251587C40B5AF16673F6E /* Pods-idekUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA1DD800A127B15F47186545EDC27DF /* Pods-idekUITests-dummy.m */; };
+		CACF51714B8BFAF2BD2351EFAF8E7263 /* Pods-idekTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 888D7B0B133C76D3C80999BB16DF1862 /* Pods-idekTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2C91B25D8F9FCA8582C752E1356E128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 225754E6C476C484D2DA681C392B24DF;
+			remoteInfo = "Pods-idek";
+		};
+		EA42B2F5A2B4919BBD5D1C480DB92389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 225754E6C476C484D2DA681C392B24DF;
+			remoteInfo = "Pods-idek";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0659314817BED73E2A9DFB0C8A2B4258 /* Pods-idekTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-idekTests-resources.sh"; sourceTree = "<group>"; };
+		0B1FDAC36AB5ADBE4918BAEEF71C5057 /* Pods-idekTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-idekTests-umbrella.h"; sourceTree = "<group>"; };
+		0E735DBE69F6528E49350DCA29750F5B /* Pods-idek-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-idek-acknowledgements.plist"; sourceTree = "<group>"; };
+		16566ABF8EC57A7D67B18A1E9F326FDD /* Pods_idek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_idek.framework; path = "Pods-idek.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2860CDBD537D5677BEB8F09BEE200974 /* Pods-idek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-idek.debug.xcconfig"; sourceTree = "<group>"; };
+		2AAAA8332B4CE1D02AA43E601D81B92A /* Pods-idekTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-idekTests.debug.xcconfig"; sourceTree = "<group>"; };
+		303DC87290771B49B01D230936B85AD6 /* Pods-idekUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-idekUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3483330F9766D599A54A3D32E1C413AE /* Pods-idekUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-idekUITests.release.xcconfig"; sourceTree = "<group>"; };
+		35F97A5D5B8E7547E1F4FA181A13B254 /* Pods-idekUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-idekUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3674671097FBFA62045A3925811F7308 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524E52F912B19C02E35F12C420EEFDE4 /* Pods_idekTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_idekTests.framework; path = "Pods-idekTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		60010F8C4597FEC622F67FBF346E18D7 /* Pods-idekUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-idekUITests-frameworks.sh"; sourceTree = "<group>"; };
+		68A931B2DA464FADD1B5E72F69D1DDBB /* Pods_idekUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_idekUITests.framework; path = "Pods-idekUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE99D754F887CCFE20F2D20327E636D /* Pods-idek.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-idek.modulemap"; sourceTree = "<group>"; };
+		70F28D66D97DC6312FAA567E2FFD4D5B /* Pods-idekTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-idekTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		730844450A68BFAB55CAB7992A262156 /* Pods-idekTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-idekTests-frameworks.sh"; sourceTree = "<group>"; };
+		7F0FB1BF771325800FACCCA163818C61 /* Pods-idekTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-idekTests.modulemap"; sourceTree = "<group>"; };
+		7F101934A121A93486C59D923056E2C3 /* Pods-idek-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-idek-umbrella.h"; sourceTree = "<group>"; };
+		888D7B0B133C76D3C80999BB16DF1862 /* Pods-idekTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-idekTests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		998A7898446A4FB9C3E58069B18D87FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A19390AC9F42087551C6AC21AE117DD3 /* Pods-idekUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-idekUITests-resources.sh"; sourceTree = "<group>"; };
+		AC3D05CED4E618511F15D33596143ADC /* Pods-idek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-idek.release.xcconfig"; sourceTree = "<group>"; };
+		AF981C282A3BF2CD1A604D8B2343AAB0 /* Pods-idek-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-idek-resources.sh"; sourceTree = "<group>"; };
+		B01FD7EA36C545973CC3984753012588 /* Pods-idekUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-idekUITests.modulemap"; sourceTree = "<group>"; };
+		B1D42D0AA36A55205D32991E6B89D8EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B77F45C168E9E941872CB44F129BF3E2 /* Pods-idekUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-idekUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BAA1DD800A127B15F47186545EDC27DF /* Pods-idekUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-idekUITests-dummy.m"; sourceTree = "<group>"; };
+		BC2413BABA5DA455693257075653F6F2 /* Pods-idekUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-idekUITests-umbrella.h"; sourceTree = "<group>"; };
+		CAB7F02BA9B6203F9B9D581C5FF65972 /* Pods-idekTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-idekTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CFEF48679418A7C1B869A19ED265E803 /* Pods-idek-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-idek-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D51E4595083B0867D0E8F76C972EF178 /* Pods-idek-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-idek-frameworks.sh"; sourceTree = "<group>"; };
+		D92FEC65A8C309DD169A33E2F56D7C47 /* Pods-idek-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-idek-dummy.m"; sourceTree = "<group>"; };
+		F19012BE044DE3304D496C97E30BA68F /* Pods-idekTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-idekTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20DAF9C3E903F40ACEA4F9BA88204D45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64217F0AAEBC33FD97A5F93AB4AA1072 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		872DED77F8ADE6839EFDCE4238B0D0D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A275F55EE61DD987113E65AB61398931 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E08DC2A1850EBD50E41AACE769841406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D2016E450F6CA8ED2D22E4CCDC2ADB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58351C79845DCED7960323B58E97F5FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16566ABF8EC57A7D67B18A1E9F326FDD /* Pods_idek.framework */,
+				524E52F912B19C02E35F12C420EEFDE4 /* Pods_idekTests.framework */,
+				68A931B2DA464FADD1B5E72F69D1DDBB /* Pods_idekUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5EBFF72B4E654398ED7F43937A746C13 /* Pods-idekTests */ = {
+			isa = PBXGroup;
+			children = (
+				998A7898446A4FB9C3E58069B18D87FB /* Info.plist */,
+				7F0FB1BF771325800FACCCA163818C61 /* Pods-idekTests.modulemap */,
+				70F28D66D97DC6312FAA567E2FFD4D5B /* Pods-idekTests-acknowledgements.markdown */,
+				CAB7F02BA9B6203F9B9D581C5FF65972 /* Pods-idekTests-acknowledgements.plist */,
+				888D7B0B133C76D3C80999BB16DF1862 /* Pods-idekTests-dummy.m */,
+				730844450A68BFAB55CAB7992A262156 /* Pods-idekTests-frameworks.sh */,
+				0659314817BED73E2A9DFB0C8A2B4258 /* Pods-idekTests-resources.sh */,
+				0B1FDAC36AB5ADBE4918BAEEF71C5057 /* Pods-idekTests-umbrella.h */,
+				2AAAA8332B4CE1D02AA43E601D81B92A /* Pods-idekTests.debug.xcconfig */,
+				F19012BE044DE3304D496C97E30BA68F /* Pods-idekTests.release.xcconfig */,
+			);
+			name = "Pods-idekTests";
+			path = "Target Support Files/Pods-idekTests";
+			sourceTree = "<group>";
+		};
+		7436786426F95FA1DD06A17EDBE94A67 /* Pods-idekUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3674671097FBFA62045A3925811F7308 /* Info.plist */,
+				B01FD7EA36C545973CC3984753012588 /* Pods-idekUITests.modulemap */,
+				35F97A5D5B8E7547E1F4FA181A13B254 /* Pods-idekUITests-acknowledgements.markdown */,
+				B77F45C168E9E941872CB44F129BF3E2 /* Pods-idekUITests-acknowledgements.plist */,
+				BAA1DD800A127B15F47186545EDC27DF /* Pods-idekUITests-dummy.m */,
+				60010F8C4597FEC622F67FBF346E18D7 /* Pods-idekUITests-frameworks.sh */,
+				A19390AC9F42087551C6AC21AE117DD3 /* Pods-idekUITests-resources.sh */,
+				BC2413BABA5DA455693257075653F6F2 /* Pods-idekUITests-umbrella.h */,
+				303DC87290771B49B01D230936B85AD6 /* Pods-idekUITests.debug.xcconfig */,
+				3483330F9766D599A54A3D32E1C413AE /* Pods-idekUITests.release.xcconfig */,
+			);
+			name = "Pods-idekUITests";
+			path = "Target Support Files/Pods-idekUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				58351C79845DCED7960323B58E97F5FC /* Products */,
+				9C9A50759550AE7600362787C1AE07D0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9C9A50759550AE7600362787C1AE07D0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D614E886A5D1C0A4A3F117EFF2F933F4 /* Pods-idek */,
+				5EBFF72B4E654398ED7F43937A746C13 /* Pods-idekTests */,
+				7436786426F95FA1DD06A17EDBE94A67 /* Pods-idekUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D614E886A5D1C0A4A3F117EFF2F933F4 /* Pods-idek */ = {
+			isa = PBXGroup;
+			children = (
+				B1D42D0AA36A55205D32991E6B89D8EE /* Info.plist */,
+				6CE99D754F887CCFE20F2D20327E636D /* Pods-idek.modulemap */,
+				CFEF48679418A7C1B869A19ED265E803 /* Pods-idek-acknowledgements.markdown */,
+				0E735DBE69F6528E49350DCA29750F5B /* Pods-idek-acknowledgements.plist */,
+				D92FEC65A8C309DD169A33E2F56D7C47 /* Pods-idek-dummy.m */,
+				D51E4595083B0867D0E8F76C972EF178 /* Pods-idek-frameworks.sh */,
+				AF981C282A3BF2CD1A604D8B2343AAB0 /* Pods-idek-resources.sh */,
+				7F101934A121A93486C59D923056E2C3 /* Pods-idek-umbrella.h */,
+				2860CDBD537D5677BEB8F09BEE200974 /* Pods-idek.debug.xcconfig */,
+				AC3D05CED4E618511F15D33596143ADC /* Pods-idek.release.xcconfig */,
+			);
+			name = "Pods-idek";
+			path = "Target Support Files/Pods-idek";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6A0F64234D2A1A197B073A832765723A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7160BDF63FEA0B0218D1799D4CD26974 /* Pods-idek-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BF7E0AB347466A8368750A6648D0B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3218C3458BC29C9A24FF845F6B91168F /* Pods-idekTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E389B26E4665270A56B2B75DFE9A6E04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADE58AB66D7D4BD0311B65675EE1A18 /* Pods-idekUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		225754E6C476C484D2DA681C392B24DF /* Pods-idek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93491E81C4512E6358361E8D561D452A /* Build configuration list for PBXNativeTarget "Pods-idek" */;
+			buildPhases = (
+				4A8125C30EA1D9B93DE03B0219726AB6 /* Sources */,
+				20DAF9C3E903F40ACEA4F9BA88204D45 /* Frameworks */,
+				6A0F64234D2A1A197B073A832765723A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-idek";
+			productName = "Pods-idek";
+			productReference = 16566ABF8EC57A7D67B18A1E9F326FDD /* Pods_idek.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B00C4E8E2CF973484BF3C2A0E04EBB53 /* Pods-idekUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E959BC8B366F58121804671F20772CB /* Build configuration list for PBXNativeTarget "Pods-idekUITests" */;
+			buildPhases = (
+				FFB972AFB6ADA7007406D1D44AE40EB1 /* Sources */,
+				E08DC2A1850EBD50E41AACE769841406 /* Frameworks */,
+				E389B26E4665270A56B2B75DFE9A6E04 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEB2F27A2F99A3ED010D116603D5B871 /* PBXTargetDependency */,
+			);
+			name = "Pods-idekUITests";
+			productName = "Pods-idekUITests";
+			productReference = 68A931B2DA464FADD1B5E72F69D1DDBB /* Pods_idekUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7BC701550A489F41EB0B19C0080F2DD /* Pods-idekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE85EBEB7203CCE03F748C584E6FEE31 /* Build configuration list for PBXNativeTarget "Pods-idekTests" */;
+			buildPhases = (
+				C5B620E55218C3B5D5529619B373F740 /* Sources */,
+				872DED77F8ADE6839EFDCE4238B0D0D9 /* Frameworks */,
+				81BF7E0AB347466A8368750A6648D0B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2E76362395D589BEE3CDBD9B4562202 /* PBXTargetDependency */,
+			);
+			name = "Pods-idekTests";
+			productName = "Pods-idekTests";
+			productReference = 524E52F912B19C02E35F12C420EEFDE4 /* Pods_idekTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 58351C79845DCED7960323B58E97F5FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				225754E6C476C484D2DA681C392B24DF /* Pods-idek */,
+				F7BC701550A489F41EB0B19C0080F2DD /* Pods-idekTests */,
+				B00C4E8E2CF973484BF3C2A0E04EBB53 /* Pods-idekUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A8125C30EA1D9B93DE03B0219726AB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5892E8D6FDF50D1CB447F908C9AED154 /* Pods-idek-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B620E55218C3B5D5529619B373F740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACF51714B8BFAF2BD2351EFAF8E7263 /* Pods-idekTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB972AFB6ADA7007406D1D44AE40EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A519224ED251587C40B5AF16673F6E /* Pods-idekUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2E76362395D589BEE3CDBD9B4562202 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-idek";
+			target = 225754E6C476C484D2DA681C392B24DF /* Pods-idek */;
+			targetProxy = EA42B2F5A2B4919BBD5D1C480DB92389 /* PBXContainerItemProxy */;
+		};
+		FEB2F27A2F99A3ED010D116603D5B871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-idek";
+			target = 225754E6C476C484D2DA681C392B24DF /* Pods-idek */;
+			targetProxy = C2C91B25D8F9FCA8582C752E1356E128 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		856CC4D37AD1F0A47A00C9C46B2F519C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2860CDBD537D5677BEB8F09BEE200974 /* Pods-idek.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-idek/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-idek/Pods-idek.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		96124FD709BC088D2A45B78B5C2D3571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AAAA8332B4CE1D02AA43E601D81B92A /* Pods-idekTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-idekTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-idekTests/Pods-idekTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B85F9AF414C642766A2294BD12405843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F19012BE044DE3304D496C97E30BA68F /* Pods-idekTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-idekTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-idekTests/Pods-idekTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5F90E935E2E3F0BA9D9921A2D89AFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3483330F9766D599A54A3D32E1C413AE /* Pods-idekUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-idekUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-idekUITests/Pods-idekUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F137AC2AA2C72AD70F64C8D586B89A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 303DC87290771B49B01D230936B85AD6 /* Pods-idekUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-idekUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-idekUITests/Pods-idekUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3194AF824C3F58E6A63BB5E9EFB7BBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC3D05CED4E618511F15D33596143ADC /* Pods-idek.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-idek/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-idek/Pods-idek.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
+				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E959BC8B366F58121804671F20772CB /* Build configuration list for PBXNativeTarget "Pods-idekUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F137AC2AA2C72AD70F64C8D586B89A5C /* Debug */,
+				D5F90E935E2E3F0BA9D9921A2D89AFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93491E81C4512E6358361E8D561D452A /* Build configuration list for PBXNativeTarget "Pods-idek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856CC4D37AD1F0A47A00C9C46B2F519C /* Debug */,
+				F3194AF824C3F58E6A63BB5E9EFB7BBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE85EBEB7203CCE03F748C584E6FEE31 /* Build configuration list for PBXNativeTarget "Pods-idekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96124FD709BC088D2A45B78B5C2D3571 /* Debug */,
+				B85F9AF414C642766A2294BD12405843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
