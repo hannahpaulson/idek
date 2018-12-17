@@ -73,10 +73,10 @@
             </objects>
             <point key="canvasLocation" x="100" y="-115"/>
         </scene>
-        <!--View Controller-->
+        <!--Reddit Post View Controller-->
         <scene sceneID="axX-ic-pED">
             <objects>
-                <viewController id="t0Y-0i-ha5" sceneMemberID="viewController">
+                <viewController id="t0Y-0i-ha5" customClass="RedditPostViewController" customModule="idek" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H2S-PY-lO7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

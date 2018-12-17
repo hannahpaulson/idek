@@ -10,7 +10,12 @@ import Foundation
 import UIKit
 
 class RedditPostViewController: UIViewController {
+    
+    var post: RedditPost!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    
 }

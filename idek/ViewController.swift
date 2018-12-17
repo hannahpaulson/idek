@@ -28,6 +28,13 @@ class ViewController: UITableViewController {
             }
         }
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "displayPostView" {
+            let destination = segue.destination as! RedditPostViewController
+            destination.post = sender as! RedditPost
+        }
+    }
 }
 
 class PostViewCell: UITableViewCell {
@@ -42,7 +49,7 @@ extension ViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath) as! PostViewCell
         
-        let post = self.tableArray[indexPath.row]
+        let post = tableArray[indexPath.row]
         cell.postTitle.text = post.title
         cell.postAuthor.text = post.author
     
@@ -50,10 +57,10 @@ extension ViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.tableArray.count
+        return tableArray.count
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "displayPostView", sender: self)
+        performSegue(withIdentifier: "displayPostView", sender: tableArray[indexPath.row])
     }
 }
