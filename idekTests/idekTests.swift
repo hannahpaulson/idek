@@ -71,8 +71,8 @@ class idekTests: XCTestCase {
         }
     }
     
-    func loadRedditData(completion: @escaping (_ result: Bool, _ redditPosts: [RedditPost])->()) {
-        let url = URL(string: "https://www.reddit.com/r/aww/top.json?limit=1")!
+    func loadRedditData(completion: @escaping (_ result: Bool, _ redditPosts: [RedditPostDetails])->()) {
+        let url = URL(string: "https://www.reddit.com/r/aww/comments/a5bnv2/smooches_from_his_fren_makes_him_very_happy/.json")!
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
             guard let jsonObject = try? JSONSerialization.jsonObject(with: data!, options: []),
                 let redditJson = jsonObject as? [String: AnyObject],
