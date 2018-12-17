@@ -33,4 +33,50 @@ class RedditService {
         }
         task.resume()
     }
+    
+    
+    func loadPostDetailData(post: String, completion: @escaping (_ result: Bool, _ redditPosts: [RedditPostDetails], _ redditComments: [RedditPostComments])->()) {
+        let url = URL(string: post + "/.json")!
+        let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
+            guard let jsonObject = try? JSONSerialization.jsonObject(with: data!, options: []),
+                let postData = jsonObject as? [[String: AnyObject]]  else {
+                    completion(false, [],[])
+                    return
+            }
+            
+            let postDetails = postData[0]
+            let postComments = postData[1]
+            
+            guard let postDetailData = postDetails["data"] as? [String: AnyObject],
+                let childrenData = postDetailData["children"] as? [[String: AnyObject]] else {
+                    completion(false,[],[])
+                    return
+            }
+            
+            let post = childrenData.compactMap({ children -> RedditPostDetails? in
+                guard let postData = children["data"] as? [String: AnyObject] else {
+                    return nil
+                }
+                return RedditPostDetails.from(postData)
+            })
+            
+            guard let postCommentData = postComments["data"] as? [String: AnyObject],
+                let commentChildrenData = postCommentData["children"] as? [[String: AnyObject]] else {
+                    completion(false,[],[])
+                    return
+            }
+            
+            let comments = commentChildrenData.compactMap({ children -> RedditPostComments? in
+                guard let postData = children["data"] as? [String: AnyObject] else {
+                    return nil
+                }
+                return RedditPostComments.from(postData)
+            })
+            
+            
+            completion(true, post, comments)
+            
+        }
+        task.resume()
+    }
 }
