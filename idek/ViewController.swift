@@ -12,7 +12,7 @@ class ViewController: UITableViewController {
     
     var tableArray = [RedditPost]()
     
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.dataSource = self
@@ -20,9 +20,7 @@ class ViewController: UITableViewController {
         getTableData()
     }
     
-    
     func getTableData() {
-        print("called")
         RedditService.shared.loadRedditData() { bool , results in
             self.tableArray = results
             DispatchQueue.main.async {
@@ -32,13 +30,21 @@ class ViewController: UITableViewController {
     }
 }
 
+class PostViewCell: UITableViewCell {
+    
+    @IBOutlet weak var postTitle: UILabel!
+    @IBOutlet weak var postAuthor: UILabel!
+    
+}
 
 extension ViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath) as! PostViewCell
         
-        cell.textLabel?.text = self.tableArray[indexPath.row].title
+        let post = self.tableArray[indexPath.row]
+        cell.postTitle.text = post.title
+        cell.postAuthor.text = post.author
     
         return cell
     }
@@ -47,4 +53,7 @@ extension ViewController {
         return self.tableArray.count
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "displayPostView", sender: self)
+    }
 }

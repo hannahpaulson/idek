@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  idek
-//
-//  Created by Hannah Paulson on 16/12/2018.
-//  Copyright © 2018 Hannah Paulson. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
