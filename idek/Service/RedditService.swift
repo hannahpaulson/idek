@@ -36,7 +36,7 @@ class RedditService {
     
     
     func loadPostDetailData(post: String, completion: @escaping (_ result: Bool, _ redditPosts: [RedditPostDetails], _ redditComments: [RedditPostComments])->()) {
-        let url = URL(string: post + "/.json")!
+        let url = URL(string: "https://www.reddit.com" + post + "/.json")!
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
             guard let jsonObject = try? JSONSerialization.jsonObject(with: data!, options: []),
                 let postData = jsonObject as? [[String: AnyObject]]  else {

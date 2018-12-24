@@ -15,17 +15,20 @@ class RedditPostDetails {
     let author: String
     let time: Int
     let thumbNail: String
+    let permalink: String
     
     public init(title: String,
                 subreddit: String,
                 author: String,
                 time: Int,
-                thumbNail:String) {
+                thumbNail:String,
+                permalink: String) {
         self.title = title
         self.subreddit = subreddit
         self.author = author
         self.time = time
         self.thumbNail = thumbNail
+        self.permalink = permalink
     }
     
     
@@ -35,6 +38,7 @@ class RedditPostDetails {
             let subreddit = json["subreddit"] as? String,
             let author = json["author"] as? String,
             let time = json["created"] as? Int,
+            let permalink = json["permalink"] as? String,
             let thumbNail = json["thumbnail"] as? String else {
                 return nil
         }
@@ -43,6 +47,7 @@ class RedditPostDetails {
                           subreddit: subreddit,
                           author: author,
                           time: time,
-                          thumbNail: thumbNail)
+                          thumbNail: thumbNail,
+                          permalink:permalink)
     }
 }

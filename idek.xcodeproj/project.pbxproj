@@ -119,6 +119,23 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		592831EA21C7E77300395EF6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				594C1C6D21C6B82500F72E24 /* ViewController.swift */,
+				592831DC21C7BD2700395EF6 /* RedditPostViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		592831EB21C7E79800395EF6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				592831DA21C6EE8F00395EF6 /* RedditService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		594C1C5F21C6B82500F72E24 = {
 			isa = PBXGroup;
 			children = (
@@ -144,15 +161,14 @@
 		594C1C6A21C6B82500F72E24 /* idek */ = {
 			isa = PBXGroup;
 			children = (
+				592831EB21C7E79800395EF6 /* Service */,
+				592831EA21C7E77300395EF6 /* ViewControllers */,
 				592831E721C7D99E00395EF6 /* Data */,
 				594C1C6B21C6B82500F72E24 /* AppDelegate.swift */,
-				594C1C6D21C6B82500F72E24 /* ViewController.swift */,
 				594C1C6F21C6B82500F72E24 /* Main.storyboard */,
 				594C1C7221C6B82700F72E24 /* Assets.xcassets */,
 				594C1C7421C6B82700F72E24 /* LaunchScreen.storyboard */,
 				594C1C7721C6B82700F72E24 /* Info.plist */,
-				592831DA21C6EE8F00395EF6 /* RedditService.swift */,
-				592831DC21C7BD2700395EF6 /* RedditPostViewController.swift */,
 				592831E321C7D03E00395EF6 /* JsonParsing.swift */,
 			);
 			path = idek;

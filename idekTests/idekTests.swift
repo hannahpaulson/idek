@@ -37,7 +37,7 @@ class idekTests: XCTestCase {
     
     func testGetPostData() {
         let expect = expectation(description: "Test")
-        loadPostDetailData(post: "https://www.reddit.com/r/aww/comments/a5bnv2/smooches_from_his_fren_makes_him_very_happy"){ result,post, comments  in
+        loadPostDetailData(post: "/r/aww/comments/a5bnv2/smooches_from_his_fren_makes_him_very_happy"){ result,post, comments  in
             XCTAssert(result)
             XCTAssertEqual(post.count, 1)
             XCTAssertEqual(post.first!.title, "Smooches from his fren makes him very happy")
@@ -50,7 +50,7 @@ class idekTests: XCTestCase {
     }
     
     func loadPostDetailData(post: String, completion: @escaping (_ result: Bool, _ redditPosts: [RedditPostDetails], _ redditComments: [RedditPostComments])->()) {
-        let url = URL(string: post + "/.json")!
+        let url = URL(string: "https://www.reddit.com" + post + "/.json")!
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
             guard let jsonObject = try? JSONSerialization.jsonObject(with: data!, options: []),
             let postData = jsonObject as? [[String: AnyObject]]  else {

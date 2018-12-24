@@ -52,7 +52,6 @@ extension ViewController {
         let post = tableArray[indexPath.row]
         cell.postTitle.text = post.title
         cell.postAuthor.text = post.author
-    
         return cell
     }
     
